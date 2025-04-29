@@ -5,7 +5,7 @@ import {
 
 import { CTA } from "../components";
 import { skills } from "../constants";
-
+import React from "react";
 import "react-vertical-timeline-component/style.min.css";
 
 const About = () => {
