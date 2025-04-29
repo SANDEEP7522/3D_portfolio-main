@@ -26,7 +26,6 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-import bootstrap from './bootstrap.svg'
 
 import AWS from './aws.png'
 import MySQL from './mysql.png'
@@ -40,7 +39,6 @@ import DevelopmentTools from './VsCode.webp'
 
 
 export {
-    bootstrap,
     css,
     express,
     git,

@@ -7,8 +7,10 @@
 //   assetsInclude: ['**/*.glb'],
 // })
 
-import ViteSvgr from 'vite-plugin-svgr';
+import { defineConfig } from "vite";
+import ViteSvgr from "vite-plugin-svgr";
 
-export default {
+export default defineConfig({
   plugins: [ViteSvgr()],
-};
+  assetsInclude: ["**/*.glb"], // Add any other asset types you might need
+});

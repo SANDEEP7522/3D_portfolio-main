@@ -14,15 +14,12 @@ import {
   mui,
   nextjs,
   nodejs,
-  pricewise,
   react,
   redux,
   sass,
   snapgram,
   summiz,
   tailwindcss,
-  threads,
-  bootstrap,
   MySQL,
   ThunderClient,
   Postman,
@@ -107,11 +104,6 @@ export const skills = [
   {
     imageUrl: tailwindcss,
     name: "Tailwind CSS",
-    type: "Frontend",
-  },
-  {
-    imageUrl: bootstrap,
-    name: "Bootstrap CSS",
     type: "Frontend",
   },
   {
